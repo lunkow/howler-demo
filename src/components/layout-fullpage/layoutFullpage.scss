@@ -1,0 +1,31 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-container {
+    /* Center slide content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    min-height: 100vh;
+
+    &.slide-container--column {
+        flex-direction: column;
+    }
+}

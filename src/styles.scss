@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #FAFAFA;
+}
+
+@import 'scss/fonts.scss';
+@import 'components/button-cta/button-cta.css';
+@import 'scss/main.scss';
+
+@import 'scss/sound-controls.scss';

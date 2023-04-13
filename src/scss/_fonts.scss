@@ -1,0 +1,41 @@
+$pathFonts: 'https://promo-cdn.worldofwarships.com/global_static/fonts/';
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'),
+		url($pathFonts + 'roboto-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'),
+		url($pathFonts + 'roboto-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff'),
+		url($pathFonts + 'roboto-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Bold'), local('Roboto-Bold'),
+		url($pathFonts + 'roboto-v20-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'),
+		url($pathFonts + 'roboto-v20-latin-ext_latin_cyrillic-ext_cyrillic-700.woff') format('woff'),
+		url($pathFonts + 'roboto-v20-latin-ext_latin_cyrillic-ext_cyrillic-700.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+		url($pathFonts + 'roboto-condensed-v18-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'),
+		url($pathFonts + 'roboto-condensed-v18-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff'),
+		url($pathFonts + 'roboto-condensed-v18-latin-ext_latin_cyrillic-ext_cyrillic-regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+		url($pathFonts + 'roboto-condensed-v18-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'),
+		url($pathFonts + 'roboto-condensed-v18-latin-ext_latin_cyrillic-ext_cyrillic-700.woff') format('woff'),
+		url($pathFonts + 'roboto-condensed-v18-latin-ext_latin_cyrillic-ext_cyrillic-700.ttf') format('truetype');
+}
